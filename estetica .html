@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CAMBIA: título y descripción -->
+<title>Estética Bella Ejemplo | Cortes, color y uñas</title>
+<meta name="description" content="Estética Bella Ejemplo. Cortes, tintes, peinados y uñas. Agenda tu cita por WhatsApp.">
+<style>
+  :root {
+    --rosa: #d6336c;
+    --rosa-claro: #fde8ef;
+    --oscuro: #2b2b2b;
+    --dorado: #c9a227;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: #fff; color: var(--oscuro); line-height: 1.6; }
+  header {
+    background: linear-gradient(135deg, #f8c1d4, var(--rosa));
+    color: #fff; text-align: center; padding: 70px 20px 55px;
+  }
+  header h1 { font-size: 2.3rem; margin-bottom: 8px; letter-spacing: 1px; }
+  header p { font-size: 1.1rem; margin-bottom: 26px; font-style: italic; }
+  .btn {
+    display: inline-block; background: #25d366; color: #fff; text-decoration: none;
+    padding: 14px 28px; border-radius: 50px; font-weight: bold; font-size: 1.05rem;
+    font-family: Arial, sans-serif; box-shadow: 0 4px 10px rgba(0,0,0,.2);
+  }
+  section { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+  h2 { color: var(--rosa); margin-bottom: 20px; text-align: center; }
+  .servicios { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+  .card {
+    background: var(--rosa-claro); border-radius: 14px; padding: 20px; text-align: center;
+  }
+  .card .icono { font-size: 2rem; }
+  .card h3 { margin: 8px 0 4px; }
+  .card .precio { color: var(--rosa); font-weight: bold; font-family: Arial, sans-serif; }
+  .info { background: #faf7f8; border-radius: 12px; padding: 22px; text-align: center; font-family: Arial, sans-serif; }
+  .info p { margin: 8px 0; }
+  .mapa-link { color: var(--rosa); font-weight: bold; }
+  footer { background: var(--oscuro); color: #bbb; text-align: center; padding: 20px; font-size: .85rem; font-family: Arial, sans-serif; }
+  .flotante {
+    position: fixed; right: 16px; bottom: 16px; background: #25d366; color: #fff;
+    text-decoration: none; padding: 14px 18px; border-radius: 50px; font-weight: bold;
+    font-family: Arial, sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,.3);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <!-- CAMBIA: nombre y slogan -->
+  <h1>💇‍♀️ Estética Bella Ejemplo</h1>
+  <p>Tu cambio de look empieza aquí</p>
+  <!-- CAMBIA: número de WhatsApp (52 + 10 dígitos) -->
+  <a class="btn" href="https://wa.me/520000000000?text=Hola,%20quiero%20agendar%20una%20cita" target="_blank">📅 Agendar cita por WhatsApp</a>
+</header>
+
+<section>
+  <h2>Nuestros servicios</h2>
+  <!-- CAMBIA: servicios y precios -->
+  <div class="servicios">
+    <div class="card"><div class="icono">✂️</div><h3>Corte de cabello</h3><p class="precio">Desde $120</p></div>
+    <div class="card"><div class="icono">🎨</div><h3>Tinte y color</h3><p class="precio">Desde $350</p></div>
+    <div class="card"><div class="icono">💅</div><h3>Uñas acrílicas</h3><p class="precio">Desde $250</p></div>
+    <div class="card"><div class="icono">👰</div><h3>Peinados y eventos</h3><p class="precio">Desde $300</p></div>
+    <div class="card"><div class="icono">💆‍♀️</div><h3>Tratamientos capilares</h3><p class="precio">Desde $200</p></div>
+    <div class="card"><div class="icono">✨</div><h3>Cejas y pestañas</h3><p class="precio">Desde $100</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Ubicación y horario</h2>
+  <div class="info">
+    <!-- CAMBIA: dirección, horario y mapa -->
+    <p>📍 Calle Ejemplo #456, Centro, El Grullo, Jalisco</p>
+    <p>🕘 Lunes a Sábado: 9:00 am – 7:00 pm</p>
+    <p>📞 33 1718 3825</p>
+    <p><a class="mapa-link" href="https://www.google.com/maps/search/?api=1&query=El+Grullo+Jalisco" target="_blank">Ver en Google Maps</a></p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Estética Bella Ejemplo · Página web de demostración<br>
+  <!-- CAMBIA: pon tu número de WhatsApp -->
+  Página creada por <a href="https://wa.me/520000000000?text=Hola,%20vi%20su%20demo%20y%20quiero%20cotizar%20mi%20página" target="_blank" style="color:#f8c1d4;font-weight:bold;text-decoration:none;">Codex Gómez Studio</a> · ¿Quieres una para tu negocio?
+</footer>
+
+<a class="flotante" href="https://wa.me/520000000000?text=Hola,%20quiero%20agendar%20una%20cita" target="_blank">💬 WhatsApp</a>
+
+</body>
+</html>
